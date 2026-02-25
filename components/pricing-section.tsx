@@ -91,8 +91,8 @@ export default function PricingSection() {
               key={index}
               variants={itemVariants}
               className={`relative h-full rounded-3xl p-8 border transition-all duration-500 ${plan.highlighted
-                  ? 'border-foreground bg-zinc-900 text-zinc-50 shadow-2xl scale-100 md:scale-105 z-10'
-                  : 'border-border bg-background hover:border-foreground/30 hover:shadow-xl'
+                ? 'border-foreground bg-zinc-900 text-zinc-50 shadow-2xl scale-100 md:scale-105 z-10'
+                : 'border-border bg-background hover:border-foreground/30 hover:shadow-xl'
                 }`}
             >
               {/* Popular Badge */}
@@ -127,8 +127,8 @@ export default function PricingSection() {
               {/* CTA Button */}
               <Button
                 className={`w-full mb-8 font-bold rounded-xl h-12 transition-all active:scale-[0.98] ${plan.highlighted
-                    ? 'bg-white text-zinc-900 hover:bg-zinc-200'
-                    : 'bg-foreground text-background hover:bg-foreground/90'
+                  ? 'bg-white text-zinc-900 hover:bg-zinc-200'
+                  : 'bg-foreground text-background hover:bg-foreground/90'
                   }`}
               >
                 {plan.highlighted ? 'Start Premium Trial' : 'Get Started for Free'}
@@ -161,7 +161,7 @@ export default function PricingSection() {
             className="text-muted-foreground font-medium"
           >
             Questions about pricing?{' '}
-            <a href="#faq" className="text-foreground hover:underline font-bold">
+            <a href="/faq" className="text-foreground hover:underline font-bold">
               Check our FAQ
             </a>
           </motion.p>

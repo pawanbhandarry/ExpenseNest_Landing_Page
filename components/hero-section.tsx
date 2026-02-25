@@ -133,7 +133,7 @@ export default function HeroSection() {
             {/* Left Mockup - Analytics (Hidden on mobile) */}
             <motion.div
               initial={{ opacity: 0, x: 100, y: 50, rotate: -15, scale: 0.8 }}
-              animate={{ opacity: 1, x: -220, y: 20, rotate: -8, scale: 0.85 }}
+              animate={{ opacity: 1, x: -220, y: 10, rotate: -8, scale: 0.85 }}
               transition={{ duration: 1, delay: 0.1, type: "spring" }}
               className="absolute w-[280px] h-[580px] rounded-[3rem] bg-zinc-900 p-2 shadow-2xl border border-zinc-800 z-10 hidden md:block"
             >
@@ -155,7 +155,7 @@ export default function HeroSection() {
             {/* Right Mockup - Invoices (Hidden on mobile) */}
             <motion.div
               initial={{ opacity: 0, x: -100, y: 50, rotate: 15, scale: 0.8 }}
-              animate={{ opacity: 1, x: 220, y: 40, rotate: 8, scale: 0.85 }}
+              animate={{ opacity: 1, x: 220, y: 20, rotate: 8, scale: 0.85 }}
               transition={{ duration: 1, delay: 0.2, type: "spring" }}
               className="absolute w-[280px] h-[580px] rounded-[3rem] bg-zinc-900 p-2 shadow-2xl border border-zinc-800 z-10 hidden md:block"
             >
