@@ -91,7 +91,7 @@ const faqItems: FAQItem[] = [
     id: 'general-2',
     category: 'general',
     question: 'Which platforms does ExpenseNest support?',
-    answer: 'ExpenseNest is available on iOS (App Store) and Android (Google Play). We\'re committed to ensuring a consistent, privacy-first experience across both platforms.',
+    answer: 'ExpenseNest is currently available on Android (Google Play). We\'re committed to ensuring a consistent, privacy-first experience and may expand to other platforms in the future.',
   },
   {
     id: 'general-3',
@@ -103,7 +103,7 @@ const faqItems: FAQItem[] = [
     id: 'general-4',
     category: 'general',
     question: 'Is there a desktop version?',
-    answer: 'Currently, ExpenseNest is available as a mobile app for iOS and Android. We\'re exploring the possibility of a desktop version in the future.',
+    answer: 'Currently, ExpenseNest is available as a mobile app for Android. We\'re exploring the possibility of an iOS and desktop version in the future.',
   },
 ];
 
